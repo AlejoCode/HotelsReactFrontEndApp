@@ -12,7 +12,7 @@ class App extends Component {
       value: ''
     };
   }
-  
+
 
   componentWillMount() {
     fetch('https://alejocode-hotels-rest-api.herokuapp.com/hotels/list')
@@ -30,7 +30,7 @@ class App extends Component {
       return (
         <div>
           <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="/">Hotels ForntEnd React App</a>
+            <a class="navbar-brand" href="/">Hotels FrontEnd React App</a>
 
           </nav>
 
