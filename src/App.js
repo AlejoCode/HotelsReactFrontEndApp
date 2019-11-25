@@ -12,6 +12,7 @@ class App extends Component {
       value: ''
     };
   }
+  
 
   componentWillMount() {
     fetch('https://alejocode-hotels-rest-api.herokuapp.com/hotels/list')
